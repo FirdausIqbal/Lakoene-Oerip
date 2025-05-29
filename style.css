@@ -390,6 +390,9 @@ footer p {
     .anounce h1 {
         font-size: 2rem;
     }
+    .anounce p {
+        font-size: .7rem;
+    }
 
     /* footer */ 
     footer {

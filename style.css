@@ -106,6 +106,11 @@ header{
  .text-wraper .hero-sub{
     font-size: 1.2rem;
  }
+ .text-wraper h1 {
+    font-size: 4rem;
+    font-weight: 700;
+    color: var(--color-text-dark);
+ }
 
  .text-wraper .interaction {
     display: flex;
@@ -160,6 +165,7 @@ aside{
 .card p {
     letter-spacing: 1px;
     font-weight: lighter;
+    color: black;
 }
 
 .card h2, h3 {
@@ -382,6 +388,9 @@ footer p {
    
     .text-wraper .hero-title {
         font-size: 2rem;
+    }
+    .text-wraper h1 {
+        font-size: 3rem;
     }
     .text-wraper .hero-sub {
         font-size: .8rem;

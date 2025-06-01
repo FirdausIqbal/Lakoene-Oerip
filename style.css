@@ -259,6 +259,20 @@ footer p {
     text-align: center;
 }
 
+.maps {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    flex-direction: column;
+}
+.maps iframe {
+   padding: 1rem 0;
+}
+.maps h1 {
+    padding: 1rem;
+}
+
 
 /* media query tablet */
 @media screen and (max-width: 900px){
@@ -397,5 +411,8 @@ footer p {
     /* footer */ 
     footer {
         padding: 1rem 3rem;
+    }
+    .maps iframe {
+        width: 100%;
     }
 }
